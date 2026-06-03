@@ -1,1 +1,34 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+/* Effet de survol sur les cartes */
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Design de la liste d'étapes */
+.list-group-item {
+    border-radius: 12px !important;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #ffffff;
+}
+
+
+.product-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.nutriscore-img {
+    height: 40px;
+    margin-top: auto; /* Pousse l'image tout en bas de la carte */
+}
